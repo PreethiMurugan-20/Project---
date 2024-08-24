@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgb(0,0,0,0.5) 50%, rgb(0,0,0,0.5) 50%), url(Project.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar {
+    width:1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.logo {
+    color: orangered;
+    padding-left: 80px;
+    font-size: 30px;
+    font-family: Arial;
+    float:left;
+}
+
+.icon {
+    height: 70px;
+    width: 200px;
+    float: left;
+    
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+ul li {
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 14px;
+    list-style: none; /*---- list la varakudiya dot symbol like .hello remove list style */
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;/*--0.4s ease-out means that the transition will take 0.4 seconds and
+                                     will start fast but slow down towards the end */
+}
+
+
+ul li a:hover{
+    color: orangered;
+}
+
+.search {
+    float: left;
+    width: 330px;
+    margin-left: 300px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orangered;
+    padding:20px;
+    margin-top: 13px;
+    color: white;
+    font-size: 14px;
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-right: none;
+}
+
+.btn {
+    background-color: orangered;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    border: 1px solid orangered;
+    padding:10px;
+    margin-top: 13px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.btn :focus {
+    outline: none;
+}
+
+.srch  :focus {
+    outline: none;
+}
+
+.nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    height: 1200px;
+    width:auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .para{
+    padding-left: 20px;
+    padding-top: 20px;
+    letter-spacing: 1.5px;
+    font-family: Arial;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    margin-top: 9%;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.content span{
+    color: orangered;
+  
+}
+
+.content .button {
+    height: 40px;
+    width: 160px;
+    background-color: orangered;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4 ease;
+}
+
+.content .button a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4 ease-in-out;
+}
+
+.content .button:hover {
+        background-color: white;
+}
+
+.form {
+    width:250px;
+    height: 380px;
+    background: linear-gradient(to top, rgb(0,0,0,0.5) 50%, rgb(0,0,0,0.5) 50%);
+    position: absolute;
+    left: 900px;
+    top : -20px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;  
+    text-align: center;
+    color: orange;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    font-family: sans-serif;
+    margin-top: 20px;
+    border-bottom: 1px solid orangered;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder {
+    font-family: Arial;
+    color: white;
+
+}
+
+.lbtn {
+    width: 220px;
+    height: 35px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.lbtn:hover {
+    background-color: white;
+    color: orangered;
+}
+
+.lbtn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.logw {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.icon ion-icon {
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    transition: 0.4s ease-in-out;
+ }
+
+ .icon ion-icon:hover{
+    color: orangered;
+}
+
+
+
+
+
+
